@@ -832,7 +832,7 @@ function Footer({ onOpenPolicy }: FooterProps) {
             <p className="text-[#A89272] text-sm mb-4 font-body">
               Nadi Astrologer Manthan K Anejaa - India's leading Trikal Darshan expert. Authentic Nadi Astrology, Numerology & Palmistry readings with 170+ verified reviews.
             </p>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 mb-4">
               <a
                 href="https://instagram.com/manthan_speaks_"
                 target="_blank"
@@ -841,6 +841,14 @@ function Footer({ onOpenPolicy }: FooterProps) {
               >
                 <Instagram className="w-5 h-5" />
               </a>
+            </div>
+            {/* Business Address */}
+            <div className="text-[#A89272]/70 text-xs font-body leading-relaxed">
+              <p className="font-medium text-[#A89272] mb-1">Business Address:</p>
+              <p>E-17 VARDNO-5, ARYA S/O: Chander Mohan</p>
+              <p>Sadan, Near NEEL NAGAR, Nilokheri</p>
+              <p>Nilokheri Township (45/1), PO: Nilokheri</p>
+              <p>DIST: Karnal, Haryana – 132117</p>
             </div>
           </div>
 
