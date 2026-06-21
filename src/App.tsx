@@ -81,6 +81,7 @@ function Navbar({ onBookClick }: { onBookClick: () => void }) {
   const navLinks = [
     { label: 'About', href: '#about' },
     { label: 'Trikal Darshan', href: '#services' },
+    { label: 'Blog', href: '/blog' },
     { label: 'Reviews', href: '#reviews' },
     { label: 'Contact', href: '#contact' }
   ];
