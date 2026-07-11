@@ -128,7 +128,7 @@ export default function BlogPage() {
                         <div className="flex items-center gap-4 text-xs text-[#A89272] mb-3">
                           <span className="flex items-center gap-1">
                             <Calendar className="w-3 h-3" />
-                            {new Date(blog.published_at || blog.created_at).toLocaleDateString('en-US', { 
+                            {new Date(blog.published_at).toLocaleDateString('en-US', { 
                               month: 'short', 
                               day: 'numeric', 
                               year: 'numeric' 
