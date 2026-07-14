@@ -1,6 +1,35 @@
 User-agent: *
 Allow: /
-Disallow: /admin
 Disallow: /api/
+Disallow: /growth-dashboard
 
-Sitemap: https://manthananejaa.com/sitemap.xml
+# --- AI / LLM crawlers explicitly welcomed for answer engines ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://www.saatvikjyotish.com/sitemap.xml

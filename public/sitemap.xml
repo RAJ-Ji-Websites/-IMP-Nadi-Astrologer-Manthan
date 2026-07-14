@@ -1,32 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://manthananejaa.com/</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://www.saatvikjyotish.com/</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.saatvikjyotish.com/dp.jpg</image:loc>
+      <image:title>Manthan K Anejaa - Nadi Astrologer &amp; Trikal Darshan Expert</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://manthananejaa.com/#about</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://www.saatvikjyotish.com/manthan-anejaa</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://manthananejaa.com/#services</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://www.saatvikjyotish.com/best-nadi-astrologer-india</loc>
+    <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manthananejaa.com/#reviews</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.saatvikjyotish.com/trikal-darshan</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://manthananejaa.com/blog</loc>
-    <lastmod>2026-06-02</lastmod>
+    <loc>https://www.saatvikjyotish.com/nadi-astrology-online</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.saatvikjyotish.com/no-remedies-astrologer</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.saatvikjyotish.com/numerology-palmistry-reading</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.saatvikjyotish.com/nadi-jyotish-price</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.saatvikjyotish.com/#services</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
