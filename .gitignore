@@ -30,3 +30,4 @@ vercel.json
 *.sw?
 .vite-source-tags.js
 .vercel
+node_modules/
