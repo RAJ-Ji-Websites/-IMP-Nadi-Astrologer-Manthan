@@ -1,6 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import './index.css';
 import App from './App';
 import AdminLayout from './pages/AdminLayout';
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')!).render(
         ))}
         <Route path="/*" element={<App />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   </StrictMode>
 );
