@@ -84,6 +84,7 @@ function Navbar({ onBookClick }: { onBookClick: () => void }) {
     { label: 'Trikal Darshan', href: '#services' },
     { label: 'Reviews', href: '#reviews' },
     { label: 'Blog', href: '/blog' },
+    { label: 'Articles', href: '/articles' },
     { label: 'Contact', href: '#contact' }
   ];
 

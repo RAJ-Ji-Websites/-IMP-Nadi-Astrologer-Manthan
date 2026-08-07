@@ -9,6 +9,8 @@ import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
 import EntityPage from './pages/EntityPage';
 import Dashboard from './pages/Dashboard';
+import ArticlesIndex from './pages/ArticlesIndex';
+import ArticlePost from './pages/ArticlePost';
 import { ENTITY_PAGES } from './data/pages';
 
 createRoot(document.getElementById('root')!).render(
@@ -19,6 +21,8 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="/growth-dashboard" element={<Dashboard />} />
+        <Route path="/articles" element={<ArticlesIndex />} />
+        <Route path="/articles/:slug" element={<ArticlePost />} />
         {ENTITY_PAGES.map((p) => (
           <Route key={p.slug} path={`/${p.slug}`} element={<EntityPage />} />
         ))}
