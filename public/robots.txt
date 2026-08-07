@@ -2,6 +2,7 @@ User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /growth-dashboard
+Disallow: /month-1-report
 
 # --- AI / LLM crawlers explicitly welcomed for answer engines ---
 User-agent: GPTBot
