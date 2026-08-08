@@ -1,12 +1,22 @@
 import { useEffect } from 'react';
 import {
   Globe, Search, Bot, FileText, Youtube, Music2, BarChart3,
-  Instagram, CheckCircle2, ShieldCheck, ArrowUpRight,
+  Instagram, CheckCircle2, ShieldCheck, ArrowUpRight, MessageSquare, IndianRupee,
 } from 'lucide-react';
 
 // Private, visual "Month 1 Report" — short & scannable. Screen-share with client.
 
-interface Item { icon: React.ElementType; title: string; points: string[]; links?: { label: string; href: string }[]; }
+interface Item { icon: React.ElementType; title: string; points: string[]; links?: { label: string; href: string }[]; highlight?: boolean; }
+
+const PAGE_LINKS = [
+  { label: 'About Manthan', href: 'https://www.saatvikjyotish.com/manthan-anejaa' },
+  { label: 'Best Nadi Astrologer', href: 'https://www.saatvikjyotish.com/best-nadi-astrologer-india' },
+  { label: 'Online Nadi Astrology', href: 'https://www.saatvikjyotish.com/nadi-astrology-online' },
+  { label: 'Trikal Darshan', href: 'https://www.saatvikjyotish.com/trikal-darshan' },
+  { label: 'No-Remedies Astrologer', href: 'https://www.saatvikjyotish.com/no-remedies-astrologer' },
+  { label: 'Numerology & Palmistry', href: 'https://www.saatvikjyotish.com/numerology-palmistry-reading' },
+  { label: 'Consultation Pricing', href: 'https://www.saatvikjyotish.com/nadi-jyotish-price' },
+];
 
 const SECTIONS: Item[] = [
   {
@@ -33,19 +43,30 @@ const SECTIONS: Item[] = [
     title: 'AI Search Optimization',
     points: [
       'Optimized for ChatGPT, Gemini & Google AI',
-      '7 dedicated pages (About, Trikal Darshan, Pricing, etc.)',
+      '7 dedicated pages — each opens a live link below',
       'Goal: AI recommends you by name + services',
     ],
+    links: PAGE_LINKS,
   },
   {
     icon: FileText,
-    title: '5 SEO Blog Articles',
+    title: '10 SEO Blog Articles',
     points: [
       'Targeting: best nadi astrologer, best astrologer in Haryana',
-      'Plus: Manthan K Anejaa, Saatvik Jyotish brand searches',
+      'Plus: NRI, career, marriage, palmistry & brand searches',
       'Each written to rank + get cited by AI',
     ],
     links: [{ label: 'View Articles', href: 'https://www.saatvikjyotish.com/articles' }],
+  },
+  {
+    icon: MessageSquare,
+    title: 'Instagram Chats Managed',
+    points: [
+      'Handled DMs & inquiries for 20+ days',
+      'Recovered missed consultation leads',
+      'Generated ₹55K–₹60K in extra consultations',
+    ],
+    highlight: true,
   },
   {
     icon: Youtube,
@@ -129,17 +150,17 @@ export default function Report() {
         {/* Cards */}
         <div className="grid sm:grid-cols-2 gap-4">
           {SECTIONS.map((s) => (
-            <div key={s.title} className="rounded-xl bg-[#2D1810] border border-[#C9A84C]/15 p-5">
+            <div key={s.title} className={`rounded-xl p-5 ${s.highlight ? 'bg-[#1e2a16] border border-[#22C55E]/40' : 'bg-[#2D1810] border border-[#C9A84C]/15'}`}>
               <div className="flex items-center gap-2.5 mb-3">
-                <span className="w-9 h-9 rounded-lg bg-[#C9A84C]/15 border border-[#C9A84C]/30 flex items-center justify-center">
-                  <s.icon className="w-4.5 h-4.5 text-[#C9A84C]" />
+                <span className={`w-9 h-9 rounded-lg flex items-center justify-center border ${s.highlight ? 'bg-[#22C55E]/15 border-[#22C55E]/40' : 'bg-[#C9A84C]/15 border-[#C9A84C]/30'}`}>
+                  <s.icon className={`w-4.5 h-4.5 ${s.highlight ? 'text-[#22C55E]' : 'text-[#C9A84C]'}`} />
                 </span>
                 <h2 className="font-heading text-base text-[#F5EBD8] tracking-wide leading-tight">{s.title}</h2>
               </div>
               <ul className="space-y-1.5">
                 {s.points.map((p, i) => (
                   <li key={i} className="flex items-start gap-2 text-[#A89272] font-body text-[13px] leading-snug">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-[#C9A84C] flex-shrink-0 mt-0.5" /> {p}
+                    <CheckCircle2 className={`w-3.5 h-3.5 flex-shrink-0 mt-0.5 ${s.highlight ? 'text-[#22C55E]' : 'text-[#C9A84C]'}`} /> {p}
                   </li>
                 ))}
               </ul>
@@ -157,16 +178,28 @@ export default function Report() {
           ))}
         </div>
 
+        {/* Revenue highlight */}
+        <div className="rounded-xl bg-[#1e2a16] border border-[#22C55E]/40 p-5 mt-6 flex items-center gap-4">
+          <span className="w-11 h-11 rounded-lg bg-[#22C55E]/15 border border-[#22C55E]/40 flex items-center justify-center flex-shrink-0">
+            <IndianRupee className="w-5 h-5 text-[#22C55E]" />
+          </span>
+          <div>
+            <div className="font-heading text-xl sm:text-2xl text-[#F5EBD8]">₹55K–₹60K <span className="text-[#22C55E] text-base">extra revenue</span></div>
+            <div className="text-[#A89272] font-body text-[13px] mt-0.5">From managing Instagram chats for 20+ days</div>
+          </div>
+        </div>
+
         {/* Snapshot numbers */}
-        <div className="grid grid-cols-3 gap-3 mt-6">
+        <div className="grid grid-cols-4 gap-3 mt-4">
           {[
-            { n: '12+', l: 'SEO / AI Pages' },
+            { n: '17+', l: 'SEO / AI Pages' },
+            { n: '10', l: 'Blog Articles' },
             { n: '3', l: 'New Channels' },
             { n: '2', l: 'Tracking Tools' },
           ].map((x) => (
-            <div key={x.l} className="rounded-xl bg-[#241212] border border-[#C9A84C]/15 p-4 text-center">
-              <div className="font-heading text-2xl sm:text-3xl" style={{ color: '#C9A84C' }}>{x.n}</div>
-              <div className="text-[#A89272] font-body text-[11px] mt-1 leading-tight">{x.l}</div>
+            <div key={x.l} className="rounded-xl bg-[#241212] border border-[#C9A84C]/15 p-3 sm:p-4 text-center">
+              <div className="font-heading text-xl sm:text-3xl" style={{ color: '#C9A84C' }}>{x.n}</div>
+              <div className="text-[#A89272] font-body text-[10px] sm:text-[11px] mt-1 leading-tight">{x.l}</div>
             </div>
           ))}
         </div>
