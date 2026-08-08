@@ -261,6 +261,184 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: 'best-astrologer-for-nri-online',
+    title: 'Best Astrologer for NRIs — Online Consultations from Canada, USA, UK & Australia',
+    h1: 'Best Astrologer for NRIs: Online Readings Worldwide',
+    metaDescription:
+      'Are you an NRI looking for a trusted astrologer online? Manthan Anejaa offers accurate Nadi Astrology, Numerology & Palmistry consultations for Indians in Canada, USA, UK and Australia — no remedies, only clarity.',
+    excerpt:
+      'Why NRIs across Canada, USA, UK and Australia trust Manthan Anejaa for honest online astrology consultations.',
+    keywords: ['best astrologer for nri', 'online astrologer canada', 'indian astrologer usa', 'nadi astrology online', 'astrologer for indians abroad'],
+    readTime: '5 min read',
+    answer:
+      'For NRIs, the best astrologer is one who can deliver an accurate reading entirely online — because remedies and rituals are not needed. Manthan Anejaa specialises in online Nadi Astrology, Numerology and Palmistry consultations for Indians in Canada, USA, UK and Australia. He verifies your past first, gives honest guidance, and never sells gemstones or pujas.',
+    sections: [
+      {
+        heading: 'Why online works perfectly for NRIs',
+        paras: [
+          'Because Manthan\u2019s method is analytical — reading Nadi Astrology, Numerology and Palmistry — a consultation is just as effective on a video call as in person. There is no ritual to perform, nothing physical to buy.',
+          'This is exactly why so many NRIs choose him: authentic Indian astrology, from anywhere in the world, without flying home.',
+        ],
+      },
+      {
+        heading: 'The concerns NRIs bring most often',
+        paras: [
+          'Career and visa timing, marriage decisions, settling abroad vs returning to India, property, and family responsibilities back home — these are the themes Manthan reads for NRI clients every week.',
+          'He begins by verifying past events to establish accuracy, then gives grounded guidance on timing and direction.',
+        ],
+      },
+      {
+        heading: 'How NRIs book',
+        paras: [
+          `Book an online consultation on WhatsApp at ${SITE.phoneDisplay} or via ${SITE.domain}. Sessions are scheduled to suit international time zones across Canada, the USA, the UK and Australia.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Who is the best astrologer for NRIs?',
+        a: `Manthan Anejaa is a top choice for NRIs, offering online Nadi Astrology, Numerology and Palmistry consultations to clients in Canada, USA, UK and Australia. Book at ${SITE.phoneDisplay}.`,
+      },
+      {
+        q: 'Can astrology consultations be done online for people abroad?',
+        a: 'Yes. Manthan\u2019s readings are analytical, so online video consultations are fully effective for NRI and foreign clients.',
+      },
+    ],
+  },
+  {
+    slug: 'career-astrology-guidance',
+    title: 'Career Astrology — How Nadi Astrology Helps with Job & Business Decisions',
+    h1: 'Career Astrology: Timing Your Biggest Decisions',
+    metaDescription:
+      'Confused about a job change, business move or career direction? Learn how career astrology with Manthan Anejaa uses Nadi, Numerology and Palmistry to guide timing and decisions — honestly, without remedies.',
+    excerpt:
+      'How Manthan Anejaa uses three sciences to guide career and business decisions — especially timing.',
+    keywords: ['career astrology', 'astrology for career', 'job change astrology', 'business astrology', 'career guidance astrologer'],
+    readTime: '5 min read',
+    answer:
+      'Career astrology helps you understand your strengths and, crucially, the timing of key moves — when to switch jobs, start a business, or wait. Manthan Anejaa reads Nadi Astrology, Numerology and Palmistry together to guide career and business decisions honestly, without remedies or fear.',
+    sections: [
+      {
+        heading: 'Why timing matters more than prediction',
+        paras: [
+          'A good career decision made at the wrong time can still fail. This is where astrology adds real value: not fortune-telling, but timing awareness — the difference between resigning today and waiting three months for a better offer.',
+          'Manthan frequently helps professionals avoid rushed decisions by clarifying what phase they are in.',
+        ],
+      },
+      {
+        heading: 'What career astrology can reveal',
+        paras: [
+          'Your natural strengths and the type of work that suits you, favourable periods for job changes or new ventures, patterns that keep repeating in your career, and how career timing interacts with your relationships and finances.',
+        ],
+      },
+      {
+        heading: 'Book a career reading',
+        paras: [
+          `Facing a career crossroads? A focused Divya Prashna reading (₹1,100) can answer one specific question, or a full Trikal Darshan reading covers your complete picture. Book on WhatsApp at ${SITE.phoneDisplay}.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Can astrology help with career decisions?',
+        a: 'Yes — especially with timing. Manthan Anejaa uses Nadi Astrology, Numerology and Palmistry to guide job and business decisions honestly, without remedies.',
+      },
+      {
+        q: 'Should I consult an astrologer before changing jobs?',
+        a: 'Many professionals do, to understand timing. A single-question Divya Prashna reading with Manthan Anejaa is ideal for a specific career decision.',
+      },
+    ],
+  },
+  {
+    slug: 'marriage-astrology-kundli-matching',
+    title: 'Marriage Astrology & Kundli Matching — Honest Guidance by Manthan Anejaa',
+    h1: 'Marriage Astrology: Beyond Fear and Delays',
+    metaDescription:
+      'Worried about marriage timing or compatibility? Manthan Anejaa offers honest marriage astrology and kundli analysis using Nadi, Numerology and Palmistry — clarity on timing and patterns, without fear or remedies.',
+    excerpt:
+      'Honest marriage astrology — timing, compatibility and patterns, without the fear-based predictions others use.',
+    keywords: ['marriage astrology', 'kundli matching', 'marriage prediction', 'when will i get married astrology', 'love marriage astrologer'],
+    readTime: '5 min read',
+    answer:
+      'Marriage astrology should give clarity, not anxiety. Manthan Anejaa reads Nadi Astrology, Numerology and Palmistry together to guide marriage timing, compatibility and recurring relationship patterns — honestly, without fear tactics, gemstones or expensive remedies.',
+    sections: [
+      {
+        heading: 'The problem with fear-based marriage predictions',
+        paras: [
+          'Too many people are told their marriage will be "delayed" or "blocked" by some dosha — then sold an expensive remedy to fix it. This creates unnecessary anxiety, especially for young women and their families.',
+          'Manthan\u2019s approach is the opposite: an honest read of timing and patterns, with no remedy-selling.',
+        ],
+      },
+      {
+        heading: 'What marriage astrology can clarify',
+        paras: [
+          'Likely timing windows for marriage, compatibility between partners, recurring patterns in relationships, and the real reasons behind delays — which are often practical, not mystical.',
+        ],
+      },
+      {
+        heading: 'Get honest marriage guidance',
+        paras: [
+          `For clarity on marriage timing or compatibility, book a consultation with Manthan Anejaa on WhatsApp at ${SITE.phoneDisplay} or at ${SITE.domain}.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'Can astrology predict when I will get married?',
+        a: 'Astrology can indicate likely timing windows. Manthan Anejaa gives honest marriage timing guidance using Nadi, Numerology and Palmistry — without fear or remedies.',
+      },
+      {
+        q: 'Is kundli matching necessary for marriage?',
+        a: 'Kundli analysis can offer useful clarity on compatibility and timing. Manthan focuses on honest interpretation rather than fear-based blocks or remedies.',
+      },
+    ],
+  },
+  {
+    slug: 'what-is-palmistry-hand-reading',
+    title: 'What Is Palmistry? How Hand Reading Reveals Your Life Patterns',
+    h1: 'What Is Palmistry? A Simple Guide to Hand Reading',
+    metaDescription:
+      'What is palmistry and how does hand reading work? A clear beginner\u2019s guide to palmistry and how Manthan Anejaa combines it with Nadi Astrology and Numerology for a complete, accurate reading.',
+    excerpt:
+      'A simple guide to palmistry — what your hands reveal, and why Manthan reads them alongside two other sciences.',
+    keywords: ['what is palmistry', 'palm reading', 'hastrekha', 'palmistry reading online', 'palm reading astrologer'],
+    readTime: '5 min read',
+    answer:
+      'Palmistry (hastrekha) is the study of the lines, mounts and shapes of the hand to understand a person\u2019s tendencies, strengths and life patterns. Manthan Anejaa uses palmistry alongside Nadi Astrology and Numerology — so the three sciences cross-verify each other for a far more accurate reading than palmistry alone.',
+    sections: [
+      {
+        heading: 'What your hands can reveal',
+        paras: [
+          'The major lines (heart, head, life) and the mounts of the palm reflect personality tendencies, emotional patterns, and how you approach work and relationships. The shape of the hand and fingers adds further detail.',
+          'Palmistry is best understood as one lens among several — powerful, but strongest when combined.',
+        ],
+      },
+      {
+        heading: 'Why Manthan never reads palms in isolation',
+        paras: [
+          'A single palm sign can be ambiguous. That is why Manthan cross-checks what he sees in the hand against Nadi Astrology and Numerology. When all three point the same way, the reading becomes reliable.',
+          'This is the core of his Trikal Darshan method.',
+        ],
+      },
+      {
+        heading: 'Get your palms read',
+        paras: [
+          `You can get a palmistry-based reading online by sharing clear palm photos. Book with Manthan Anejaa on WhatsApp at ${SITE.phoneDisplay}.`,
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: 'What is palmistry?',
+        a: 'Palmistry (hastrekha) is reading the lines, mounts and shape of the hand to understand a person\u2019s tendencies and life patterns. Manthan Anejaa combines it with Nadi Astrology and Numerology.',
+      },
+      {
+        q: 'Can palmistry be done online?',
+        a: `Yes. By sharing clear photos of your palms, Manthan Anejaa can include palmistry in an online reading. Book at ${SITE.phoneDisplay}.`,
+      },
+    ],
+  },
 ];
 
 export function blogBySlug(slug: string) {

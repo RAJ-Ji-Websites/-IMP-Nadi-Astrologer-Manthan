@@ -1,4 +1,4 @@
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useLocation, Link, Navigate } from 'react-router-dom';
 import { MessageCircle, ArrowRight, Check } from 'lucide-react';
 import PageShell from '../components/PageShell';
 import Seo from '../components/Seo';
@@ -6,7 +6,10 @@ import { SITE } from '../data/site';
 import { ENTITY_PAGES, pageBySlug } from '../data/pages';
 
 export default function EntityPage() {
-  const { slug } = useParams();
+  // Routes are static paths (e.g. /manthan-anejaa), so derive the slug from
+  // the pathname rather than useParams (which needs a :slug route segment).
+  const { pathname } = useLocation();
+  const slug = pathname.replace(/^\/+/, '').replace(/\/+$/, '');
   const page = slug ? pageBySlug(slug) : undefined;
   if (!page) return <Navigate to="/" replace />;
 
